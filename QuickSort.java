@@ -60,10 +60,6 @@ public class QuickSort {
     }
 }
 
-
-
-
-
 // key points:
 
 // Pivot Selection: The pivot is always the last element in the array. This can cause slow performance (O(n²)) when the array is sorted or nearly sorted.
