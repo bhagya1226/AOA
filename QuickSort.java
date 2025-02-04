@@ -1,7 +1,5 @@
 import java.util.*;
-
 public class QuickSort {
-
     public static void quickSort(int[] array, int low, int high) {
         if (low < high) {
             int pi = partition(array, low, high);
@@ -9,7 +7,6 @@ public class QuickSort {
             quickSort(array, pi + 1, high); 
         }
     }
-
     public static int partition(int[] array, int low, int high) {
         int pivot = array[high];  // Taking the last element as pivot
         int i = (low - 1);  // Index of smaller element
