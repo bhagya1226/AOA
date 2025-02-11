@@ -48,3 +48,15 @@ class BinarySearch {
             System.out.println("Element found at index " + res);
     }
 }
+//**Time Complexity** 
+1. Best Case (O(1)): In the best-case scenario, binary search finds the target value immediately at the mid-point of the array.
+    This requires only a single comparison, making the time complexity O(1). 
+    The algorithm achieves its optimal performance when the target is perfectly aligned with the mid-point on the first attempt.
+2. Average Case (O(log n)): On average, binary search performs O(log n) comparisons. 
+    Each step halves the search range, leading to logarithmic time complexity. 
+    This efficiency holds across various positions of the target within the sorted array, as the algorithm consistently reduces the problem size exponentially.
+3. Worst Case (O(log n)): In the worst-case scenario, binary search also operates with O(log n) complexity.
+    This occurs when the target value is not present, requiring the algorithm to explore the entire search range.
+    Despite this, the logarithmic reduction of the search space ensures that the time complexity remains logarithmic.
+**Space Complexity **
+    
