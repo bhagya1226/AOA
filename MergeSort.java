@@ -81,3 +81,26 @@ class MergeSort
             System.out.print(a[i] + " ");
     }
 }
+// Time Complexity Analysis of Merge Sort:
+// Consider the following terminologies:
+// T(k) = time taken to sort k elements
+// M(k) = time taken to merge k elements
+//  So, it can be written
+//  T(N) = 2 * T(N/2) + M(N)
+// = 2 * T(N/2) + constant * N
+//  These N/2 elements are further divided into two halves. So,
+//  T(N) = 2 * [2 * T(N/4) + constant * N/2] + constant * N
+// = 4 * T(N/4) + 2 * N * constant
+// . . .
+// = 2k * T(N/2k) + k * N * constant
+//  It can be divided maximum until there is one element left. So, then N/2k = 1. k = log2N
+//  T(N) = N * T(1) + N * log2N * constant
+// = N + N * log2N
+//  Therefore the time complexity is O(N * log2N).
+
+// So in the best case, the worst case and the average case the time complexity is the same.
+//  Space Complexity Analysis of Merge Sort:
+// Merge sort has a space complexity of O(n).
+// This is because it uses an auxiliary array of size n to merge the sorted halves of the input array. The auxiliary array is used to store the merged result, and the input array is overwritten with the sorted result.
+
+
