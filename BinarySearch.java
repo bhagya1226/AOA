@@ -59,4 +59,7 @@ class BinarySearch {
     This occurs when the target value is not present, requiring the algorithm to explore the entire search range.
     Despite this, the logarithmic reduction of the search space ensures that the time complexity remains logarithmic.
 **Space Complexity **
+   1. O(1) (iterative version) 
+   2.O(logn) (recursive version)
+‍
     
