@@ -55,3 +55,6 @@ public class Knapsack {
         System.out.println("Maximum value in Knapsack:  " + maxValue);
     }
 }
+
+//Output:-
+//Maximum value in Knapsack:  90.0
