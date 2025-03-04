@@ -48,6 +48,10 @@ class BinarySearch {
             System.out.println("Element found at index " + res);
     }
 }
+Output:-
+Element found at index 2
+
+    
 //**Time Complexity** 
 1. Best Case (O(1)): In the best-case scenario, binary search finds the target value immediately at the mid-point of the array.
     This requires only a single comparison, making the time complexity O(1). 
