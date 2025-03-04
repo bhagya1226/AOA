@@ -81,6 +81,10 @@ class MergeSort
             System.out.print(a[i] + " ");
     }
 }
+Output:-
+ 3 4 5 8 9 10 11 
+
+ 
 // **Time Complexity Analysis of Merge Sort:**
 // Consider the following terminologies:
 // T(k) = time taken to sort k elements
