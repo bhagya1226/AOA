@@ -59,6 +59,21 @@ public class QuickSort {
         sc.close(); // Close the scanner after use
     }
 }
+Output:-
+Enter the number of elements: 10
+Enter 10 integers:
+2
+4
+1
+9
+8
+5
+4
+6
+7
+8
+Original array:
+2 4 1 9 8 5 4 6 7 8 
 
 // key points:
 
