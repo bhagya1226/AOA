@@ -1,14 +1,11 @@
 import java.util.Arrays;
-
 public class BellmanFord {
-
     // Method to implement Bellman-Ford algorithm
     public static void bellmanFord(int[][] graph, int V, int source) {
         // Create a distance array and initialize all distances to infinity
         int[] dist = new int[V];
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[source] = 0;
-
         // Relax all edges (V - 1) times
         for (int i = 0; i < V - 1; i++) {
             for (int u = 0; u < V; u++) {
