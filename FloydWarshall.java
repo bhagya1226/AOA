@@ -73,3 +73,12 @@ public class FloydWarshall {
     }
 }
 
+//output
+
+The shortest distances between every pair of vertices are:
+0 3 4 9 10 6
+3 0 1 6 7 3
+4 1 0 5 6 2
+9 6 5 0 1 3 
+10 7 6 1 0 4
+6 3 2 3 4 0
