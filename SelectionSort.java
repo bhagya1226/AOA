@@ -43,3 +43,9 @@ public class SelectionSort {
         printArray(arr);
     }
 }
+//output
+
+Original Array:
+64 25 12 22 11 
+Sorted Array:
+11 12 22 25 64 
