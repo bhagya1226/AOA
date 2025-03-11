@@ -57,3 +57,12 @@ public class BellmanFord {
         bellmanFord(graph, V, source);
     }
 }
+
+//output
+
+Vertex   Distance from Source
+0        0
+1        2
+2        4
+3        3
+4        9
