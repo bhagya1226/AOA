@@ -69,3 +69,19 @@ public class FloydWarshall {
         scanner.close();
     }
 }
+
+//Enter the number of vertices: 3
+Enter the adjacency matrix (enter 0 for no direct edge):
+0
+4
+11
+6
+0
+2
+3
+0
+0
+Shortest distances between every pair of vertices:
+0 4 6
+5 0 2
+3 7 0
